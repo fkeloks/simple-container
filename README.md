@@ -1,4 +1,7 @@
 # PSR-11 Simple container
+
+[![Build Status](https://travis-ci.org/fkeloks/simple-container.svg?branch=master)](https://travis-ci.org/fkeloks/simple-container)
+
 A simple psr-11 compatible container.  
 By Florian B. (Alias fkeloks)
 
