@@ -11,8 +11,8 @@
     ],
     "autoload": {
         "psr-4": {
-            "SimpleContainer\\": "src/",
-            "SimpleContainerTests\\": "tests/"
+            "SimpleContainer\\": "src",
+            "SimpleContainerTests\\": "tests"
         }
     },
     "scripts": {
