@@ -99,6 +99,8 @@ class ContainerTest extends TestCase
         $classA = $this->container->make(FakeClassA::class);
         $dateOne = $classA->getDate();
 
+        sleep(1);
+
         $classA = $this->container->make(FakeClassA::class);
         $dateTwo = $classA->getDate();
 
@@ -142,6 +144,7 @@ class ContainerTest extends TestCase
 
     public function testGetWithMultiplesParamsIntoContructror() {
         $dateA = new \DateTime();
+        sleep(1);
         $dateB = new \DateTime();
         $container = ContainerBuilder::build([
             'FakeD' => [
